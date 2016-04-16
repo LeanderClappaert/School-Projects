@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: E:\School\"Semester 2"\"Java OO"\"Project (+ Gegevensbanken project)"\RadVanFortuin\JavaApplication20\src\Grafisch
+Main-Class: RVFF
+
