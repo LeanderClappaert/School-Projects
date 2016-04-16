@@ -1,0 +1,138 @@
+/**
+ * Project webtechnieken 2014-2015 - CSS pagina 4/5: contact( + responsive)
+ *
+ * 1 Eo-ICT 2
+ * @version 16/05/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ */
+
+/* --- ALGEMEEN --- */
+
+h2 {
+	color: #fcc035;
+	text-transform: uppercase;
+	font-size: 2.1rem;
+	margin-bottom: 1.5rem;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #fcc035;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+dt {
+	margin-top: 1rem;
+}
+
+#contact, #offerte {
+	background-color: rgba(0, 0, 0, 0.8); /*via opacity: 0.8; komt de tekst veel lichter uit */
+	border: 0.1rem solid white;
+	border-radius: 1rem;
+	float: left;
+}
+
+#contactformulier, #info, .links, .midden, .rechts {
+	float: left;
+	width: 100%;
+}
+
+/* --- CONTACT --- */
+
+#contact {
+	padding: 2rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+#contactformulier dl dd {
+	width: 93%;
+}
+
+textarea {
+	margin: 1rem 0rem 1rem 0rem;
+	resize: none;
+	height: 13rem;
+	width: 93%;
+}
+
+#tekstvak {
+	width: 108%;
+}
+
+#info a {
+	background-image: url(../img/maps.png);
+	background-repeat: no-repeat;
+	background-size: 35.075rem 27.05rem;
+	width: 93%;
+	padding-bottom: 26rem;
+	margin-bottom: 2rem;
+}
+
+/* --- OFFERTE --- */
+
+#offerte {
+	padding: 2rem;
+	margin-bottom: 1rem;
+}
+
+#offerte h2 {
+	margin-bottom: 0rem;
+}
+
+#huidige, .rechts dd {
+	margin-bottom: 1rem;
+}
+
+#offerte h3 {
+	margin-top: 2rem;
+}
+
+/* --- RESPONSIVE --- */
+
+@media(min-width: 39.5em) {
+
+	/* --- CONTACT --- */
+
+	#contact {
+		padding: 3rem;
+	}
+
+	#contactformulier {
+		width: 35%;
+		padding-left: 3rem;
+	}
+
+	#info {
+		width: 62.7%;
+	}
+
+	#info a {
+		width: 64%;
+		padding-bottom: 24rem;
+		margin: 0 auto;
+		margin-bottom: 0rem;
+	}
+
+	/* --- OFFERTE --- */
+
+	#offerte {
+		padding: 3rem;
+	}
+
+	.links, .midden {
+		width: 30%;
+		margin-right: 5%;
+	}
+
+	.rechts {
+		width: 30%;
+	}
+}
+
+@media(min-width: 46.875em) {
+	#offerte, #contact {
+		margin-bottom: 2rem;
+	}
+}

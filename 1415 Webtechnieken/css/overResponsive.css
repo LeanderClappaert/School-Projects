@@ -1,0 +1,247 @@
+/**
+ * Project webtechnieken 2014-2015 - CSS pagina 3/5: over( + responsive)
+ *
+ * 1 Eo-ICT 2
+ * @version 16/05/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ */
+
+/* --- ALGEMEEN --- */
+
+#main {
+	background-color: rgba(0, 0, 0, 0.8);  /*via opacity: 0.8; komt de tekst veel lichter uit */
+	border: 1px solid white;
+	border-radius: 1rem;
+	padding: 2rem;
+	padding-right: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+#main h2, h3 {
+	color: #fcc035;
+	text-transform: uppercase;
+	font-size: 2.1rem;
+	margin-bottom: 1.5rem;
+}
+
+
+/* --- LOCATIE --- */
+
+#locatie {
+	float: left;
+}
+
+#locatie img {
+	float: left;
+	width: 80%;
+	margin-bottom: 1.5rem;
+}
+
+#locatie p {
+	float: left;
+	width: 80%;
+}
+
+#locatie a {
+	float: left;
+	margin-bottom: 1.5rem;
+}
+
+
+/* --- WERKNEMERS --- */
+
+#werknemers {
+	float: left;
+}
+
+.visitekaartje, .visitekaartjeMidden {
+	float: left;
+	width: 80%;
+}
+
+.visitekaartje img, .visitekaartjeMidden img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.visitekaartjeMidden {
+	margin-left: 0rem;
+	margin-right: 0rem;
+}
+
+#werknemers h4 {
+	text-transform: uppercase;
+	color: #fcc035;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+/* --- REGELS --- */
+
+#aankoop, #milieubescherming, #privacy {
+	margin-top: 1rem;
+}
+
+#aankoop h2, #milieubescherming h2, #privacy h2 {
+	float: left;
+	width: 100%;
+}
+
+#aankoop p, #milieubescherming p, #privacy p {
+	float: left;
+	width: 80%;
+}
+
+/* --- RESPONSIVE --- */
+
+@media(min-width: 21.25em) {
+	#locatie {
+		width: 70%;
+		margin-left: 16%;
+	}
+ 
+	#werknemers, #aankoop, #milieubescherming, #privacy {
+		width: 86%;
+		margin-left: 16%;
+	}
+
+	#locatie p, #werknemers p {
+		width: 100%;
+	}
+
+	#locatie img, #werknemers img {
+		width: 98%
+	}
+}
+
+@media(min-width: 40.375em) {
+	#locatie, #werknemers, #aankoop, #milieubescherming, #privacy {
+		width: 99%;
+		margin-left: 0rem;
+	}
+
+	.visitekaartje, .visitekaartjeMidden {
+		width: 48%;
+		margin-right: 1rem;
+		margin-left: 0rem;
+	}	
+
+	/* Regels */
+	#aankoop, #milieubescherming, #privacy {
+		margin-top: 1rem;
+	}
+
+	#aankoop h2, #milieubescherming h2, #privacy h2 {
+		float: left;
+		width: 36%;
+	}
+
+	#aankoop p, #milieubescherming p, #privacy p {
+		float: right;
+		width: 60%;
+	}
+
+}
+
+@media(min-width: 45em) {
+	#locatie img {
+		width: 56%;
+		margin-right: 2rem;
+	}
+
+	#locatie p, #locatie a {
+		width: 40%;
+		margin-bottom: 1rem;
+	}
+
+	#locatie p:last-child {
+		width: 100%
+	}
+
+	.visitekaartje, .visitekaartjeMidden {
+		width: 48%;
+		margin-right: 1rem;
+	}
+}
+
+@media(min-width: 46.375em) {
+	#locatie a {
+		float: right;
+		margin-right: 0.7rem;
+	}
+}
+
+@media(min-width: 47.75em) {
+	#locatie p {
+		margin-bottom: 0rem;
+	}
+
+	#locatie a {
+		margin-bottom: 1.5rem;
+	}
+
+	#locatie img {
+		margin-bottom: 0rem;
+	}
+}
+
+@media(min-width: 48.5em) {
+	#locatie a {
+		margin-bottom: 1.5rem;
+	}
+
+	#locatie img {
+		margin-bottom: 1rem;
+	}
+}
+
+@media(min-width: 51em) {
+	#locatie img {
+		margin-bottom: 2.5rem;
+	}
+
+	#locatie a {
+		float: left;
+		margin-right: 0rem;
+	}
+}
+
+@media (min-width: 59.75em) {
+
+	/* Algemeen */
+	#main {
+		padding: 3rem;
+		padding-right: 2.5rem;
+	}
+
+	#main h2 {
+		font-size: 2.5rem;
+	}
+
+	/* Locatie */
+	#locatie img {
+		width: 50%;
+		margin-bottom: 2.5rem;
+	}
+
+	#locatie p {
+		width: 46%;
+		margin-bottom: 1.5rem;
+	}
+
+	/* Werknemers */
+	.visitekaartje, .visitekaartjeMidden {
+		width: 29%;
+		margin-right: 0rem;
+	}
+
+	.visitekaartjeMidden {
+		margin-left: 5rem;
+		margin-right: 5rem;
+	}
+
+	#werknemers h3 {
+		font-size: 2rem;
+	}
+}

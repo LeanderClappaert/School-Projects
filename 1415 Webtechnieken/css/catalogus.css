@@ -1,0 +1,66 @@
+/**
+ * Over stylesheet voor project Webtechnieken
+ *
+ * 1 Eo-ICT 2
+ * @version 08/04/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ *
+ */
+
+/* =============================================
+ * OVER PAGE
+ =============================================== */
+
+/* --- ALGEMEEN --- */
+
+#auto {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 3rem 2.5rem 2rem 3rem;
+	border: 1px solid white;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+#auto h1 {
+	color: #fcc035;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.links {
+	float: left;
+	width: 13%;
+}
+
+.links h1 {
+	font-size: 9rem;
+	font-weight: bold;
+}
+
+.midden {
+	float: left;
+	width: 33%;
+	padding-top: 1.5rem;
+}
+
+.midden p {
+	line-height: 0.5rem;
+}
+
+.midden strong {
+	color: #fcc035;
+}
+
+.rechts {
+	float: left;
+	width: 53%;	
+}
+
+.border {
+	border-bottom: 1px solid #edebea;
+	margin-bottom: 2rem;
+}
+
+.rechtsfoto img {
+	width: 53%;
+}

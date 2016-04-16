@@ -1,0 +1,25 @@
+CHECKLIST PROJECT WEBTECHNIEKEN:
+
+OK * Geen validatiefouten: zowel HTML als CSS
+
+OK * Outliner tool!
+   OK	* Kijken of de opbouw logisch is
+   OK	* Eerste section begint met h1, volgende section erin is h2...
+   OK	* Elke article begint sowieso altijd met h1
+
+OK * Structuur van css en html in orde
+   OK	* Gebruik commentaar
+   OK	* Logische indeling van css: met commentaar code in groepen opdelen
+   OK	* Logische volgorde van gebruik bij css: niet met code van footer beginnen, deze hoort onderaan
+   OK	* Logisch gebruik van html/css tags
+   OK	* Logische naamgeving ID's en classes
+
+OK * Responsive design
+
+OK * Bovenaan elke pagina: correcte vermelding gegevens + kleine commentaar
+
+OK * Controle alt-elementen bij je img's: "foto van..." hoeft niet, wel goed uitleggen waarover het gaat.
+
+OK * Indienen: alles in 1 *.zip (ook map img, css...). Enkel de responsive versies meesturen.
+
+OK * Breadcrumb detailpagina niet vergeten.

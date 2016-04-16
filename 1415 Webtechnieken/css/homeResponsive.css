@@ -1,0 +1,396 @@
+/**
+ * Project webtechnieken 2014-2015 - CSS pagina 2/5: home( + responsive)
+ *
+ * 1 Eo-ICT 2
+ * @version 16/05/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ */
+
+/* =============================================
+ * HOME PAGE - MAIN
+ =============================================== */
+
+/* --- ALGEMEEN --- */
+
+.column {
+	width: 100%;
+	float: left;
+}
+
+aside .column {
+	float: right;
+	margin-left: 2.083%;
+}
+
+h2 {
+	color: #fcc035;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+#introductie, #auto, aside #modellen, aside #vragen, aside #socialmedia {
+	background-color: rgba(0, 0, 0, 0.8); /*via "opacity: 0.8;" komt de tekst veel lichter uit */
+	border: 0.1rem solid white;
+	border-radius: 1rem;	
+}
+
+
+/* --- INTRODUCTIE --- */
+
+#introductie {
+	padding-left: 2rem;
+	padding-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+#introductie h2 {
+	font-size: 2.5rem;
+	margin-right: 1rem;
+}
+
+#introductie p {
+	float: left;
+	padding-right: 4rem;
+}
+
+
+/* --- AUTODEALS --- */
+
+#auto {
+	padding: 2rem 2.5rem 2rem 2rem;
+}
+
+.links, .rechts {
+	float: left;
+}
+
+.links h2 {
+	font-size: 7rem;
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+.midden {
+	float: left;
+	padding-top: 1.5rem;
+}
+
+.midden p {
+	line-height: 0.5rem;
+}
+
+.midden strong {
+	color: #fcc035;
+}
+
+.border {
+	border-bottom: 0.1rem solid #edebea;
+	margin-bottom: 2rem;
+}
+
+.rechtsfoto img {
+	width: 100%;
+}
+
+.naarCatalogus {
+	float: right;
+	margin-right: 0.5rem;
+}
+
+.naarCatalogus a:hover {
+	color: #fbd98c;
+}
+
+/* --- SIDE MENU --- */
+
+/* algemeen */
+
+aside p {
+	line-height: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+aside #modellen, aside #vragen, aside #socialmedia {
+	float: left;
+}
+
+/* modellen en vragen */
+
+aside #modellen, aside #vragen {
+	margin-top: 1rem;
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+aside #modellen a, aside #vragen a {
+	float: left;
+	padding: 1.5rem 6rem;
+	color: #000000;
+	background-color: #fcc035;
+	border: 0.1rem solid;
+	border-radius: 1rem;
+	margin-left: 10%;
+}
+
+aside #modellen a:hover, aside #vragen a:hover {
+	background-color: #fbd98c;
+}
+
+aside #vragen a {
+	padding-left: 6.75rem;
+	padding-right: 6.75rem;
+}
+
+/* socialmedia */
+
+aside #socialmedia {
+	padding: 2rem 100% 2rem 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+aside .socialmedia a {
+	position: absolute;
+	text-indent: -9999px;
+}
+
+ul.socialmedia {
+	width: 15rem;
+}
+
+aside .socialmedia li {
+	float: left;
+	display: inline-block;
+	width: 4.2rem;
+	height: 4.2rem;
+	margin-right: 0.5rem;
+	padding-left: 4.5rem;
+}
+
+aside .socialmedia li .facebook, aside .socialmedia li .twitter, aside .socialmedia li .youtube {
+	background-image: url(../img/socialiconsprite.png);
+	background-repeat: no-repeat;
+	background-size: 46.2rem; /* -> 1100% = 4.2 * 11 */
+	width: 4.2rem;
+	height: 4.2rem;
+}
+
+aside .socialmedia li .facebook {
+	background-position: 0rem -4.2rem;
+}
+
+aside .socialmedia li .twitter {
+	background-position: -33.6rem -4.2rem;
+}
+
+aside .socialmedia li .youtube {
+	background-position: -42rem -4.2rem;
+}
+
+
+/* --- RESPONSIVE --- */
+
+@media(min-width: 36.5em) {
+	#auto {
+		margin-bottom: 1rem;
+	}
+
+	aside #modellen, aside #vragen {
+		width: 43%;
+		margin-top: 0rem;
+		margin-bottom: 1rem;
+		padding: 2rem;
+	}
+
+	aside #modellen {
+		padding-right: 1rem;
+		margin-left: 5.125%;
+		margin-right: 1%;
+	}
+
+	aside #modellen p {
+		margin-bottom: 3.5rem;
+	}
+
+	aside #vragen {
+		margin-right: 5.125%;
+		margin-left: 1%;
+	}
+
+	aside #modellen a, aside #vragen a {
+		margin-left: 0;
+	}
+
+	aside #socialmedia {
+		margin-top: 0rem;
+		padding: 2rem 7rem 2rem 2rem;
+		margin-left: 29.75%;
+	}
+
+	aside .socialmedia li {
+		padding-left: 3rem;
+	}
+}
+
+@media(min-width: 37.5em) {
+	.border, .laatste {
+		float: left;
+		width: 50%;
+	}
+
+	.laatste {
+		border: none;
+	}
+
+	.rechtsfoto img {
+		width: 95%;
+	}
+}
+
+@media(min-width: 39.6875em) {
+	aside #modellen p {
+		margin-bottom: 1.5rem;
+	}
+
+	aside #modellen a, aside #vragen a {
+		margin-left: 7%;
+	}
+}
+
+@media(min-width: 46.875em) {
+	#introductie, #auto {
+		margin-bottom: 2rem;	
+	}
+
+	aside #modellen p {
+		margin-bottom: 3.5rem;
+	}
+
+	aside #modellen {
+		margin-left: 0;
+	}
+
+	aside #vragen {
+		margin-right: 0;
+	}
+
+	aside #socialmedia {
+		margin-top: 0rem;
+		padding: 2rem 7rem 2rem 2rem;
+		margin-left: 1.4rem;
+	}
+
+	aside #modellen, aside #vragen, aside #socialmedia {
+		width: 32%;
+	}
+
+	aside #modellen a, aside #vragen a {
+		margin-left: 0;		
+	}
+}
+
+@media(min-width: 53.125em) {
+	aside #modellen p {
+		margin-bottom: 1.5rem;
+	}
+
+	aside #modellen a, aside #vragen a {
+		margin-left: 1.5rem;		
+	}
+}
+
+@media (min-width: 59.75em) {
+	.column {
+		width: 72%;
+		float: left;
+	}
+
+	aside .column {
+		width: 25%;
+		float: right;
+		margin-left: 2.083%;
+	}
+
+
+	#introductie {
+		padding: 3rem;
+	}
+
+	#introductie h2 {
+		float: left;
+		width: 30%;
+		padding-right: 0rem;
+	}
+
+	#introductie p {
+		float: right;
+		width: 68%;
+		padding-right: 0rem;
+	}
+
+ 	/* --- AUTODEALS --- */
+
+	#auto {
+		padding: 3rem 2.5rem 3rem 3rem;
+	}
+
+	#auto h2 {
+		margin-bottom: 0rem;
+	}
+
+	.links {
+		width: 13%;
+	}
+
+	.links h1 {
+		font-size: 9rem;
+		margin-right: 0rem;
+	}
+
+	.midden {
+		width: 33%;
+		padding-top: 3.5rem;
+	}
+
+	.rechts {
+		width: 53%;	
+	}
+
+	.rechtsfoto img {
+		width: 53%;
+	}
+
+	.border, .laatste {
+		float: none;
+		width: 100%;
+		border-bottom: 0.1rem solid #edebea;
+		margin-bottom: 2rem;
+	}
+
+	.rechtsfoto img {
+		width: 54%;
+	}
+
+	/* modellen en vragen */
+
+	aside #modellen, aside #vragen {
+		width: 100%;
+		padding: 2rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+	}
+
+	aside #modellen a, aside #vragen a {
+		padding: 1.5rem 6rem 1.5rem 6rem;
+		margin-left: 0;
+	}
+
+	aside #vragen a {
+		padding-left: 6.75rem;
+		padding-right: 6.75rem;
+	}
+
+	aside #socialmedia {
+		margin-left: 0;
+		width: 100%;
+	}
+}

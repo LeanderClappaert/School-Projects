@@ -1,0 +1,93 @@
+/**
+ * Over stylesheet voor project Webtechnieken
+ *
+ * 1 Eo-ICT 2
+ * @version 08/04/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ *
+ */
+
+/* =============================================
+ * OVER PAGE
+ =============================================== */
+
+/* --- ALGEMEEN --- */
+
+#main {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 3rem;
+	padding-right: 2.5rem;
+	border: 1px solid white;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+#main h2 {
+	color: #fcc035;
+	text-transform: uppercase;
+	margin-bottom: 2.5rem;
+}
+
+
+/* Locatie */
+
+#locatie {
+	float: left;
+}
+
+#locatie img {
+	float: left;
+	width: 50%;
+	margin-bottom: 2.5rem;
+	margin-right: 2rem;
+}
+
+#locatie p {
+	float: left;
+	width: 46%;
+}
+
+
+/* Werknemers */
+
+#werknemers {
+	float: left;
+}
+
+.visitekaartje, .visitekaartjeMidden {
+	float: left;
+	width: 29%;
+}
+
+.visitekaartje img, .visitekaartjeMidden img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.visitekaartjeMidden {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+#werknemers h3 {
+	text-transform: uppercase;
+	color: #fcc035;
+	font-size: 2rem;
+}
+
+
+/* Regels */
+
+#aankoop, #milieubescherming, #privacy {
+	margin-top: 1rem;
+}
+
+#aankoop h2, #milieubescherming h2, #privacy h2 {
+	float: left;
+	width: 36%;
+}
+
+#aankoop p, #milieubescherming p, #privacy p {
+	float: right;
+	width: 60%;
+}

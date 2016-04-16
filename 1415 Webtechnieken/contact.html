@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+	Project webtechnieken 2014-2015 - HTML pagina 3/4: contact
+	1 Eo-ICT 2
+	@version 16/05/2015
+	@author Leander Clappaert <leander.clappaert@student.odisee.be>
+-->
+<html lang="nl">
+<head>
+	<title> Contact | Cardealer Clappaert </title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/library.css" />
+	<link rel="stylesheet" href="css/stylesResponsive.css" />
+	<link rel="stylesheet" href="css/contactResponsive.css" />
+	<script src="#"></script>
+	
+	<style>
+		html {
+			font-size: 62.5%
+		}
+		body {
+			font-size: 1.6rem;
+		}
+	</style>
+</head>
+<body>
+	<header class="clearfix">
+		<div class="wrapper">
+			<h1 id="logo"><a href="home.html" class="ir">Vorsprung durch Technik</a></h1>
+			<nav>
+				<h2 class="structural">Main navigation</h2>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="over.html">Over Ons</a></li>
+					<li><a href="contact.html" class="selected">Contact</a></li>
+				</ul>
+			</nav>
+
+			<section id="banner">
+				<h2 class="structural">Detailpagina audi R8</h2>
+				<p><a href="detailpagina.html"><img src="img/audi_banner.jpg" alt="frontview nieuwste, witte, audi R8"/></a></p>
+			</section>
+		</div>
+	</header>
+
+	<section class="wrapper clearfix">
+		<h1 class="structural">Main content</h1>
+		<section id="contact">
+			<h2>Contact</h2>
+			<section id="info">
+				<h3>Vind ons</h3>
+				<p>Cardealer Clappaert</p>
+				<p>
+					Adres: hortensialaan 17 <br>
+						   9080 Lochristi <br>
+					Tel: 09/123.45.67
+				</p>
+				<p>
+					Openingsuren:
+					dinsdag &ndash; zaterdag: van 9u00 tot 18u30 <br>
+					zondag en maandag: gesloten
+
+				</p>
+				<a href="https://www.google.be/maps/place/Hortensialaan+17,+9080+Lochristi/@51.0930827,3.8244307,17z/data=!3m1!4b1!4m2!3m1!1s0x47c377c173337bdd:0xee846adac07fb02b" class="ir">Google Maps</a>
+			</section>
+			<section id="contactformulier">
+				<h3>Stel ons een vraag</h3>
+				<form action="#" method="post" enctype="multipart/form-data">
+					<dl class="clearfix">
+						<dt><label for="contactName">Naam*:</label></dt>
+						<dd><input type="text" id="contactName" name="name" value="" style="width:100%" required/></dd>
+						<dt><label for="contactSurname">Voornaam*:</label></dt>
+						<dd><input type="text" id="contactSurname" name="name" value="" style="width:100%" required/></dd>
+						<dt><label for="contactemail">E-mail*:</label></dt>
+						<dd><input type="email" id="contactemail" name="contactemail" value="" style="width:100%" required/></dd>
+						<dt><label for="soort">Soort vraag:</label></dt>
+						<dd>
+							<select id="soort">
+								<option selected>selecteer...</option>
+								<option>kopen</option>
+								<option>verkopen</option>
+								<option>informatie</option>
+								<option>andere</option>
+							</select>
+						</dd>
+						<dt><label for="onderwerp">Onderwerp*:</label></dt>
+						<dd><input type="text" id="onderwerp" name="onderwerp" value="" style="width:100%"/></dd>
+					</dl>
+					<dl id="tekstvak" class="clearfix">
+						<dt><label for="vraag">Vraag*:</label></dt>
+						<dd>
+							<textarea name="vraag" id="vraag" required>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre</textarea>
+						<dd>
+					</dl>
+					<p id="verzendknop"><input type="submit" value="Verzenden" /></p>
+				</form>
+			</section>
+		</section>
+
+		<section id="offerte">
+			<h2>Vraag offerte aan</h2>
+			<form action="#" method="post" enctype="multipart/form-data">
+				<section class="links">
+					<h3>Ik wil een offerte voor</h3>
+					<dl class="clearfix">
+						<dt><label for="keuze"></label></dt>
+						<dd>
+							<select id="keuze">
+								<option selected>Audi A3 Sportback</option>
+								<option>Porsche 911 Carrera</option>
+								<option>Land Rover Discovery</option>
+								<option>BMW 1 Reeks Hatch</option>
+							</select>
+						</dd>
+					</dl>
+				</section>
+				<section class="midden">
+					<h3>Uw gegevens</h3>
+					<dl>
+						<dt><label for="dataName">Naam*:</label></dt>
+						<dd><input type="text" id="dataName" name="name" value="" style="width:93%" required/></dd>
+						<dt><label for="dataSurname">Voornaam*:</label></dt>
+						<dd><input type="text" id="dataSurname" name="name" value="" style="width:93%" required/></dd>
+						<dt><label for="dataEmail">E-mail*:</label></dt>
+						<dd><input type="email" id="dataEmail" name="contactemail" value="" style="width:93%" required/></dd>
+						<dt><label for="contacttel">Tel:</label></dt>
+						<dd><input type="tel" id="contacttel" name="contacttel" value="" style="width:93%"/></dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><label for="huidige">Wat is uw huidige wagen?</label></dt>
+						<dd>
+							<select id="huidige">
+								<option selected>...</option>
+								<option>Alfa Romeo</option>
+								<option>Audi</option>
+								<option>Bentley</option>
+								<option>BMW</option>
+								<option>Cadillac</option>
+								<option>Chevrolet</option>
+								<option>Chrysler</option>
+								<option>Citroen</option>
+								<option>Diahatsu</option>
+								<option>Ferrari</option>
+								<option>Fiat</option>
+								<option>Ford</option>
+								<option>Honda</option>
+								<option>Hyundai</option>
+								<option>Jaguar</option>
+								<option>Jeep</option>
+								<option>Kia</option>
+								<option>Lada</option>
+								<option>Lamborghini</option>
+								<option>Lancia</option>
+								<option>Land Rover</option>
+								<option>Lexus</option>
+								<option>Lotus</option>
+								<option>Maserati</option>
+								<option>Mazda</option>
+								<option>Mercedes-Benz</option>
+								<option>Mini</option>
+								<option>Mitsubishi</option>
+								<option>Nissan</option>
+								<option>Opel</option>
+								<option>Peugeot</option>
+								<option>Pgo</option>
+								<option>Porsche</option>
+								<option>Renault</option>
+								<option>Rolls-Royce</option>
+								<option>Saab</option>
+								<option>Seat</option>
+								<option>Skoda</option>
+								<option>Smart</option>
+								<option>Ssangyong</option>
+								<option>Subaru</option>
+								<option>Suzuki</option>
+								<option>Toyota</option>
+								<option>Volkswagen</option>
+								<option>Volvo</option>
+							</select>
+						</dd>
+					</dl>
+					<dl>
+						<dt><label><input type="checkbox" name="geenWagen"/> Ik heb momenteel geen wagen</label></dt>
+						<dd></dd>
+					</dl>
+					<dl>
+						<dt><label for="toekomst">Wanneer wilt u uw volgende wagen aankopen?</label></dt>
+						<dd>
+							<select id="toekomst">
+								<option selected>...</option>
+								<option>Binnen minder dan 3 maanden</option>
+								<option>Over 3 tot 6 maanden</option>
+								<option>Over 6 maanden tot 1 jaar</option>
+								<option>Over meer dan een jaar</option>
+							</select>
+						</dd>
+					</dl>
+				</section>
+				<section class="rechts">
+					<h3>Extra</h3>
+					<dl>
+						<dt><label><input type="checkbox" name="wilEmail"/> Ik wil via e&ndash;mail op de hoogte gehouden worden van de toekomstige acties.</label></dt>
+						<dd></dd>
+					</dl>
+				</section>
+				<p id="dataVerzendknop"><input type="submit" value="Verzenden" /></p>
+			</form>
+		</section>
+	</section>
+
+	<footer>
+		<h1 class="structural">Footer</h1>
+		<div class="wrapper">
+			<p>
+				&copy;2015 by Clappaert bvba. Project webtechnieken &ndash; Template 916, <a href="wix.com">Wix.com</a>
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

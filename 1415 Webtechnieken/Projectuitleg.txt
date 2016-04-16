@@ -1,0 +1,16 @@
+Als je de bevestiging van de labodocent gekregen hebt, kun je aan de uitwerking van het project beginnen.
+Responsive CSS komt pas na de paasvakantie aan bod; 
+maak alvast de desktop versies met de content op een vaste breedte van 960px (de klassieke breedte van een website). 
+
+Gebruik minstens de pagina's uit de template die met de labodocent overeengekomen zijn. 
+Je hoeft je niet 100% strikt aan het ontwerp te houden: je mag kleuren, lettertypes, schikking e.d. vervangen, alsook onderdelen toevoegen / verwijderen. 
+Let er evenwel op dat je het ontwerp niet sterk vereenvoudigt of uitkleedt door alles wat moeilijk is eruit te gooien of te vereenvoudigen.
+Contacteer bij twijfel (of als je toch een moeilijk te realiseren designelement wil eruit laten) je labodocent.
+
+Project uit te werken:
+
+	http://nl.wix.com/website-template/view/html/916?originUrl=http%3A%2F%2Fnl.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fonline-store%2Ftoys-games%2F2&bookName=create-master-new&galleryDocIndex=4&category=online-store&metaSiteId=#
+
+        Template nummer: 916.
+        Onderwerp waarvoor ik deze template wil gebruiken: autoverkoper.
+        Pagina's: Home, overzicht assortiment auto's, detailpagina auto, contactpagina.

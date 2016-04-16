@@ -1,0 +1,85 @@
+/**
+ * Project webtechnieken 2014-2015 - CSS pagina 5/5: detailpagina( + responsive)
+ *
+ * 1 Eo-ICT 2
+ * @version 16/05/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ */
+
+/* --- ALGEMEEN --- */
+
+h2 {
+	color: #fcc035;
+	text-transform: uppercase;
+	font-size: 2.1rem;
+	margin-bottom: 1.5rem;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #fcc035;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 3rem;
+}
+
+#exterieur, #interieur, #motor, #breadcrumb {
+	background-color: rgba(0, 0, 0, 0.8); /*via opacity: 0.7; komt de tekst veel lichter uit */
+	border: 0.1rem solid white;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+#exterieur, #interieur, #motor {
+	padding: 3rem;
+	float: left;
+	width: 100%;
+}
+
+#breadcrumb {
+	padding: 1.5rem 0rem 3.5rem 3rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+
+/* --- EXTERIEUR en INTERIEUR en MOTOR --- */
+
+p, section img {
+	float: left;
+	width: 100%;
+}
+
+section img {
+	margin-bottom: 4rem;
+}
+
+#inleidingInterieur, #inleidingExterieur, #inleidingMotor, #motor p, #motor #naastFoto {
+	width: 100%;
+}
+
+/* --- RESPONSIVE DESIGN --- */
+
+@media(min-width: 46.875em) {
+	#breadcrumb, #exterieur, #interieur, #motor {
+		margin-bottom: 2rem;
+	}
+}
+
+@media(min-width: 48.6875em) {
+ 	p, #motor #naastFoto {
+ 		width: 61%;
+ 	}
+
+ 	section img {
+		float: left;
+		width: 35%;
+		margin-left: 4%;
+		margin-bottom: 3rem;
+	}
+}
+
+@media(min-width: 50em) {
+ 	section img {
+		margin-bottom: 2rem;
+	}	
+}

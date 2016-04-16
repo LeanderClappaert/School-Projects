@@ -1,0 +1,128 @@
+/**
+ * Common styles
+ *
+ * 1 Eo-ICT 2
+ * @version 07/04/2015
+ * @author Leander Clappaert <leander.clappaert@student.odisee.be>
+ *
+ */
+
+/* ===========================================
+   GENERAL
+   =========================================== */
+
+* {
+	margin: 0; /* wipe out browser differences for default values */
+	padding: 0; /* wipe out browser differences for default values  */
+	-webkit-box-sizing: border-box; /* use border-box box model everywhere */
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	min-width: 48rem;
+	max-width: 96rem;
+	margin: 0 auto;
+}
+
+body {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	background-image: url(../img/background.jpg);
+}
+
+a {
+	text-decoration: none;
+	color: #fcc035;
+	font-size: 1.5rem;
+}
+
+p {
+	line-height: 1.4em;
+	margin-bottom: 1em;
+	font-size: 1.5rem;
+}
+
+ul {
+	list-style: none;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.5rem;
+}
+
+/* ===========================================
+   Header
+   =========================================== */
+
+/* logo */
+
+#logo {
+	float: left;
+	display: block;
+	background-size: 10rem 5.5rem;
+	margin-left: 2rem;
+	margin-top: 0.5rem;
+	position: absolute;
+}
+
+#logo a {
+	background-image: url(../img/audi_logo_edited.jpg);
+	background-repeat: no-repeat;
+	background-size: 21.5rem 3.67rem;
+	padding: 1rem 4rem 1rem 1rem;
+}
+
+
+/* main menu */
+
+nav {
+	background-color: #000000;
+	border: 0.1rem solid white;
+	border-radius: 1rem;
+	padding: 1rem 0rem 1.5rem 50rem;
+	margin-bottom: 2rem;
+	margin-top: 0.7rem;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 3.5rem;
+}
+
+nav a {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+nav a:hover, nav a.selected {
+	color: #fcc035;
+}
+
+
+/* main banner */
+
+#banner {
+	background-color: rgba(0, 0, 0, 0.8); /*via opacity: 0.8; komt de tekst veel lichter uit */
+	background-image: url(../img/audi_banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 76.8rem 43.2rem;
+	padding: 0.3rem 10.6rem;
+	margin: 0 auto;
+	background-position: center;
+	margin-bottom: 2rem;
+	border: 0.1rem solid white;
+	border-radius: 1rem;
+}
+
+#banner .wrapper {
+	padding-top: 40rem;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
