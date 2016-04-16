@@ -1,0 +1,66 @@
+﻿INHOUD HOMEPAGINA oCourse
+------------------------------
+(de onderdelen tussen /* */ moeten niet op de pagina komen)
+
+
+
+START MET STUDEREN!
+
+Zoek een cursus en doe een bredere kennis op.
+
+
+/* FOTO: Kies één! van de gegeven foto’s. Deze mag bewerkt worden (incl. wijziging kleur)*/
+
+
+/* call to action */ 
+
+Bekijk alle cursussen
+
+
+
+
+/* GEEF DE 3 ONDERSTAANDE DOELEN VISUEEL WEER */
+
+
+
+Wat wil jij vandaag LEREN?
+
+Het is gratis! Elke online cursus is gratis. Het enige wat je moet doen is registreren. 
+Naast de cursussen is ook een certificaat verkrijgen gratis.
+
+
+/* Call to action */ 
+
+Maak een gratis account 
+
+
+
+WERELDWIJD beschikbaar
+
+Heb je een data connectie? Dan is ook oCourse beschikbaar! 
+Het is toegankelijk vanop elk apparaat met internet op een optimale manier.
+
+
+/* Call to action */ 
+
+Bekijk demo cursus
+
+
+
+5600+ studenten
+Je studeert niet alleen! Er zijn ondertussen meer dan 5600 studenten. 
+Werk samen, discussieer en vergelijk oplossing via de verschillende online tools.
+
+
+/* Call to action */ 
+
+Ontmoet medestudenten
+
+
+
+
+
+/* VUL DEZE PAGINA EVENTUEEL AAN MET POPULAIRSTE of RECENSTE CURSUSSEN */
+
+
+

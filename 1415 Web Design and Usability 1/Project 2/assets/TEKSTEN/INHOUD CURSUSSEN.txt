@@ -1,0 +1,200 @@
+﻿INHOUD ONLINE CURSUSSEN
+------------------------------
+(de onderdelen tussen /* */ moeten niet op de pagina komen)
+
+
+
+
+/* ZOEKFORMULIER */
+
+
+Cursus
+
+
+/* input veld voor keywords, topic, naam, … */
+
+
+
+Taal 
+Nederlands 
+/* Checkbox */
+
+
+Frans 
+/* Checkbox */
+
+
+Engels 
+/* Checkbox */
+
+
+Duits 
+/* Checkbox */
+
+
+/* ZOEK BUTTON */
+
+
+
+
+
+
+
+/* FILTER */
+
+
+
+Alles
+/* Link of Button  */
+
+
+Nieuwe 
+/* Link of Button */
+
+
+Toekomstige 
+/* Link of Button */
+
+
+
+Categorie 
+/* Checkboxen */
+
+
+Design
+
+Architectuur
+
+Brainstorming
+
+Creatief 
+Webdesign
+
+Games
+
+Augmented reality
+
+Programming
+
+Business
+
+Psychologie
+
+
+
+
+
+Waardering
+	
+Geen waardering (1)
+	
+< 6/10 Normaal (0)
+	
+> 7/10 Goed (4)
+	
+> 8/10 Zeer goed (3)
+	
+> 9/10 Uitmuntend (0)
+
+
+
+Studieduur
+	
+< 4 weken
+	
+> 4 weken
+	
+> 2 maand
+	
+> 4 maand
+
+
+
+
+
+
+/* ZOEKRESULTATEN, LET OP DE VERSCHILLENDE WEERGAVES */
+
+
+
+Er zijn 5 online cursussen gevonden
+
+
+Webpage Designer (NL)
+
+Wilt u ook het internet op door zelf een website te maken?
+Of wilt u uw huidige eenvoudige homepage meer uitstraling geven? 
+Of wilt u voor het bedrijf waar u werkt een professionele website maken? 
+Dan is deze cursus webpage-designer iets voor u. 
+
+
+Categorie: Webdesign
+Studieduur: 2 maand
+gebruikerswaardering: 8/10
+start: januari 2015
+
+
+
+
+Google Apps (NL)
+
+Google Apps is een pakket van applicaties dat volledig online beschikbaar is 
+en beheerd wordt door Google. 
+Dit 'cloud-pakket' biedt een grote diversiteit aan mogelijkheden als het versturen van e-mails, 
+het beheren van agenda's, het maken en delen van documenten (tekst, spreadsheets, enz.) en 
+het archiveren van correspondentie.
+
+
+Categorie: Programming
+Studieduur: 2 weken
+gebruikerswaardering: 4/10
+start: november 2014
+
+
+
+
+Architecture Part 1 (EN)
+
+Architecture to convert a place into a state of mind.
+Apparently a simple task, actually a fairly tricky operation. To (try to) understand, 
+we split our journey into three parts. 
+This course is about part 1: from nothingness to place (part 2 is from place to space, 
+part 3 is from space to architecture).
+
+
+Categorie: Architectuur
+Studieduur: 3 maand
+gebruikerswaardering: 9/10
+start: mei 2015
+
+
+
+
+Serious Game Design and Development (EN)
+
+Did you know that games can be serious? Serious Games take advantage of the engaging characteristics 
+of games to develop the players' knowledge, personal and social skills. 
+Join us and learn how to design and how to develop a serious game!
+
+start: april 2015
+
+Categorie: Games
+Studieduur: 2 maand
+gebruikerswaardering: 9/10
+
+
+
+
+Software Tester ISTQB (NL)
+
+Het gebruik van software in systemen en producten die ons omringen neemt razendsnel toe.
+Het succes van een onderneming hangt daardoor ook steeds meer af van software die de processen ondersteunt. 
+Een fout in de software kan grote gevolgen hebben. Voor een bedrijf of instelling is het daarom lonend om 
+te investeren in het waarborgen van kwaliteit. 
+Het testen van de software is een essentieel onderdeel van die kwaliteitsborging.
+
+
+start: oktober 2014
+Categorie: Programming
+Studieduur: 3 maand
+gebruikerswaardering: 6/10
