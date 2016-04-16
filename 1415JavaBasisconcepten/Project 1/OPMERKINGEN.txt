@@ -1,0 +1,4 @@
+Voor menu: een 'do while' gebruiken!
+niet enkel woorden coderen, maar ook ganse zinnen -> readLine
+readLine -> na een spatie moet het woord opnieuw gecodeerd worden met java...
+	 -> oplossing: line opsplitsen en elk woord apart coderen
