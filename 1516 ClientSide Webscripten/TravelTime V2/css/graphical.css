@@ -1,0 +1,134 @@
+/**
+ * Stylesheet for GRAPHICAL menu item - Responsive
+ *
+ * @author  Leander Clappaert <leander.clappaert@student.odisee.be>
+ * @version 02/01/2016
+ */
+
+#myChart {
+	float: left;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 50%;
+	height: 50%;
+}
+
+#myChart, #chartLegendTitle {
+	background-color: rgba(249, 249, 249, 0.9);
+}
+
+#chartLegendTitle {
+	padding-left: 1rem;
+	font-size: 1.5rem;
+}
+
+#chartLegend {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 0rem;
+	background-color: rgba(249, 249, 249, 0.9);
+}
+
+/* undo few setting from saved routes settings */
+#chartLegend li {
+	border-bottom: none;
+	margin-top: 0;
+	width: 102%;
+}
+
+#chartLegend li span {
+	width: 90%;
+	cursor: auto;
+	font-size: 1rem;
+}
+
+#graphSaveButton {
+    float: right;
+    cursor: pointer;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    background-color: #53bbe8;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    margin-right: 6rem;
+}
+
+#charResult {
+	float: left;
+}
+
+#charResult h2 {
+	padding: 1rem;
+}
+
+#charResult img {
+	width: 57rem;
+	height: 44rem;
+}
+
+#savedImages {
+	float: left;
+	display: block;
+	margin-top: 1rem;
+}
+
+@media(min-width: 25rem) {
+	#graphSaveButton {
+   		margin-right: 10rem;
+	}
+}
+
+@media(min-width: 30rem) {
+	#graphSaveButton {
+   		margin-right: 14rem;
+	}
+}
+
+@media(min-width: 35rem) {
+	#graphSaveButton {
+		margin-top: -1rem;
+   		margin-right: 2rem;
+	}
+}
+
+@media(min-width: 40em) {
+	#chartLegend li span {
+		font-size: 1.1rem;
+	}
+
+	#graphSaveButton {
+   		margin-right: 3.5rem;
+	}
+}
+
+@media(min-width: 45em) {
+	#chartLegendTitle {
+		font-size: 1.7rem;
+	}
+
+	#chartLegend li {
+		width: 105%;
+	}
+
+	#chartLegend li span {
+		font-size: 1.2rem;
+	}
+
+	#graphSaveButton {
+   		margin-right: 1.8rem;
+	}
+}
+
+@media(min-width: 60em) {
+	#chartLegend li span {
+		font-size: 1.3rem;
+	}
+}
+/* EOF */

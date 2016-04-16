@@ -1,0 +1,346 @@
+/**
+ * Stylesheet for MAIN LAYOUT - Responsive
+ *
+ * @author	Leander Clappaert <leander.clappaert@student.odisee.be>
+ * @version 02/01/2016
+ */
+
+/**
+* General Page Structure
+*/
+
+html, body {
+	height: 100%;
+	font-size: 0.625em;  /* set 1 rem = 16px * 0.625 = 10px */
+}
+
+* {
+	margin: 0; /* wipe out browser differences for default values */
+	padding: 0; /* wipe out browser differences for default values  */
+}
+
+body {
+	font-family: "Trebuchet MS", Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #1E4262;
+}
+
+body > * { 
+	font-size: 1.3rem; /* should be on body tag if it were not for a bug in Chrome */
+	line-height: 1.5;  /* should be on body tag if it were not for a bug in Chrome */
+}
+
+/**
+* General Type
+*/
+
+h1, h2, h3, h4, h5 {
+	font-family: Georgia, "times new roman", times, serif;
+	font-weight: 300;
+
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
+
+/**
+ * The Header
+ */
+
+header {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(83, 187, 232, 0.9);
+	box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0,0,0,0.2);
+}
+
+h1 {
+	width: 86%;
+	height: 3.5rem;
+	margin: 0 auto;
+	font-size: 2.6rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+h1 a {
+	color: white;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+#above {
+	width: 100%;
+	height: 16rem;
+	z-index: 20;
+}
+
+/**
+ * Header - Menu
+ */
+nav {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+nav li {
+	display: block;
+	float: left;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	padding-left: 32%;
+	width: 84%;
+}
+
+nav li:last-child {
+	width: 31%;
+}
+
+
+nav li a {
+	color: white;
+}
+
+nav li a:hover {
+	color: #4BFFAE;
+}
+
+.menuItem {
+	float: left;
+}
+
+.MiddleMenuItem {
+	float: left;
+	width: 14rem;
+}
+
+.lastMenuItem {
+	float: right;
+}
+
+@media(min-width: 25em) {
+	h1 {
+		width: 69%;
+	}
+
+	#above {
+		height: 11rem;
+	}
+
+	nav {
+		width: 85%;
+	}
+
+	nav li {
+		padding-left: 0;
+		width: 35%;
+	}
+
+	nav li:last-child {
+		width: 30%;
+	}
+}
+
+@media(min-width: 30em) {
+	h1 {
+		width: 66%;
+		font-size: 3rem;
+	}
+
+	nav li {
+		font-size: 2rem;
+		width: 34%;
+	}
+
+	nav li:last-child {
+		width: 32%;
+	}
+}
+
+@media(min-width: 35em) {
+	h1 {
+		width: 57%;
+		padding-left: 2%;
+
+	}
+
+	nav {
+		width: 80%;
+	}
+
+	nav li {
+		width: 35%;
+	}
+
+	nav li:last-child {
+		width: 30%;
+	}
+}
+
+@media(min-width: 40em) {
+	h1 {
+		width: 50%;
+	}
+
+	nav {
+		width: 75%;
+	}
+
+	#firstListItem {
+		margin-left: 4%;
+	}
+
+	nav li:last-child {
+		width: 26%;
+	}
+}
+
+@media(min-width: 45em) {
+	h1 {
+		width: 44%;
+		padding-left: 3%;
+	}
+}
+
+@media(min-width: 50em) {
+	h1 {
+		width: 50%;
+		padding-left: 4%;
+	}
+
+	#above {
+		width: 80%;
+	}
+}
+
+@media(min-width: 55em) {
+	h1 {
+		width: 45%;
+		padding-left: 0;
+	}
+}
+
+@media(min-width: 60em) {
+	h1 {
+		width: 42%;
+	}
+}
+
+@media(min-width: 65em) {
+	h1 {
+		width: 42%;
+		padding-left: 1%;
+	}
+
+	#above {
+		width: 73%;
+	}
+
+	nav li:last-child {
+		width: 23%;
+	}
+}
+
+@media(min-width: 70em) {
+	h1 {
+		width: 41%;
+	}
+
+	#above {
+		width: 69%;
+	}
+
+	nav li:last-child {
+		width: 24%;
+	}
+}
+
+@media(min-width: 80em) {
+	#above {
+		width: 65%;
+	}
+}
+
+@media(min-width: 85em) {
+	#above {
+		width: 57%;
+	}
+
+	nav li {
+		width: 36%;
+	}
+
+	nav li:last-child {
+		width: 22%;
+	}
+}
+
+@media(min-width: 90em) {
+	h1 {
+		width: 42%;
+	}
+
+	#above {
+		width: 53%;
+	}
+}
+
+@media(min-width: 95em) {
+	h1 {
+		padding-left: 2%;
+	}
+
+	#above {
+		width: 50%;
+	}
+}
+
+@media(min-width: 100em) {
+	#above {
+		width: 48%;
+	}
+}
+
+@media(min-width: 105em) {
+	#above {
+		width: 46%;
+	}
+}
+
+@media(min-width: 110em) {
+	#above {
+		width: 44%;
+	}
+}
+
+@media(min-width: 115em) {
+	#above {
+		width: 42%;
+	}
+}
+
+@media(min-width: 118em) {
+	#above {
+		width: 40%;
+	}
+}
+
+/*EOF*/

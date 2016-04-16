@@ -1,0 +1,129 @@
+/**
+ * Stylesheet for DIRECTION menu item - Responsive
+ *
+ * @author  Leander Clappaert <leander.clappaert@student.odisee.be>
+ * @version 02/01/2016
+ */
+
+/* Source: https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-directions */
+.controls {
+    margin-top: 1rem;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 3.2rem;
+    outline: none;
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+#origin-input, #destination-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 1.2rem;
+    padding: 0 1.1rem 0 1.3rem;
+    text-overflow: ellipsis;
+    width: 90%;
+}
+
+#origin-input:focus, #destination-input:focus {
+  border-color: #4d90fe;
+}
+
+#mode-selector {
+    float: left;
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 1.2rem;
+    padding: 0.5rem 1.1rem 0rem 1.1rem;
+}
+
+#mode-selector label {
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(149, 149, 149);
+}
+
+#directionButton {
+    float: right;
+    cursor: pointer;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    background-color: #53bbe8;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.2rem;
+}
+
+/*  */
+#directionButton {
+    margin-right: 26%;
+}
+
+@media(min-width: 25em) {
+    #directionButton {
+        margin-right: 32%;
+    }
+
+    #mode-selector {
+        margin-left: 20%;
+    }
+
+    #origin-input, #destination-input {
+        width: 93%;
+    }
+}
+
+@media(min-width: 30em) {
+    #directionButton {
+        margin-right: 3%;
+    }
+
+    #mode-selector {
+        margin-left: 3%;
+    }
+
+    #origin-input, #destination-input {
+        width: 94%;
+    }
+}
+
+@media(min-width: 40em) {
+    #directionButton {
+        margin-right: 2%;
+    }
+
+    #origin-input, #destination-input {
+        width: 95%;
+    }
+}
+
+@media(min-width: 50em) {
+    #directionButton {
+        margin-right: 2%;
+    }
+
+    #origin-input, #destination-input {
+        width: 95%;
+    }
+}
+
+@media(min-width: 60em) {
+    #directionButton {
+        margin-right: 1.5%;
+    }
+
+    #origin-input, #destination-input {
+        width: 96%;
+    }
+}
+/* EOF */

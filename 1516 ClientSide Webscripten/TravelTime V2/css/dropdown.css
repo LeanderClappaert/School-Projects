@@ -1,0 +1,71 @@
+/**
+ * Stylesheet for DROPDOWN MECHANISM menu/submenu
+ *
+ * @author  Leander Clappaert <leander.clappaert@student.odisee.be>
+ */
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(249, 249, 249, 0.9);
+    box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0 ,0 ,0 , 0.2);
+    margin-top: 4.5rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+#myDropdown, #myDropdown2, #myDropdown3 {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#myDropdown, #myDropdown2 {
+    height: 13rem;
+}
+
+@media(min-width: 25em) {
+    #myDropdown, #myDropdown2, #myDropdown3 {
+        margin-top: 2.3rem;
+    }
+}
+
+@media(min-width: 30em) {
+    #myDropdown {
+        height: 13rem;
+    }
+}
+/* EOF */
